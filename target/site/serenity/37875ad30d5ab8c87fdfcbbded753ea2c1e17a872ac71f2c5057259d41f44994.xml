@@ -1,0 +1,29 @@
+<acceptance-test-run title="Work with campaign popup click" name="work_with_campaign_popup_click" steps="2" successful="1" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="23289" timestamp="2015-11-11T13:35:36.862+02:00">
+  <user-story id="com.frolova.features.RegistrationStory" name="Registration story" path="com.frolova.features"/>
+  <tags>
+    <tag name="Registration story" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="18736">
+    <screenshots>
+      <screenshot image="6fc022903a75ac5c5479a07792f2fbfb_NONE.png"/>
+    </screenshots>
+    <description>Open site: &lt;span class=&apos;step-parameter&apos;&gt;language.bwin, en&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="ERROR" duration="4462">
+    <screenshots>
+      <screenshot image="ddeeb34b15b4c98ee31d46170b5f14bb_NONE.png"/>
+    </screenshots>
+    <description>Fill all fields</description>
+    <error>Cannot locate option with value: +375
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;Frolova-PC&apos;, ip: &apos;192.168.166.175&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.NoSuchElementException:Cannot locate option with value: +375
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;Frolova-PC&apos;, ip: &apos;192.168.166.175&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown&#xd;
+[com.frolova.features.RegistrationStory.work_with_campaign_popup_click(RegistrationStory.java:42)]</exception>
+  </test-step>
+</acceptance-test-run>
